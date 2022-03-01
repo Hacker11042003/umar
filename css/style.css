@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+}
+
+.menu{
+    height: 5rem;
+    background-color: rgb(31, 27, 22);
+    padding-top: 2rem;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    list-style: none;
+    margin: 1rem;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu a:hover{
+    color: rgba(255, 255, 0, 0.678);
+    transition: .5s;
+}
+
+
+/* - --- -- - -content ---- -  -- - */
+
+.content{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/logo/Porsche-356-Speedster-1280x720.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 172.1.1vh;
+    height: 88vh;
+}
