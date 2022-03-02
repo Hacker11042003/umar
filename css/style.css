@@ -33,5 +33,51 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 172.1.1vh;
-    height: 88vh;
+    height: 120vh;
+    text-align: center;
+}
+.content img{
+    width: 300px;
+}
+.content h1{
+    font-size: 50px;
+    color: #fff;
+}
+.content p{
+    font-size: 25px;
+    line-height: 25px;
+    color: #fff;
+    font-family: 'Hubballi', cursive;
+}
+.icons{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 20rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* content-title */
+
+
+.content-title{
+    background:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("../images/BG/images.jpg")fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 179.1.1vh;
+    height: 70vh;
+}
+.content-title h2{
+    text-align: center;
+    margin: 3rem;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Fredoka', sans-serif;
+}
+.content-title1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-title img{
+    width: 100px;
 }
