@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     overflow:auto;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/logo/Porsche-356-Speedster-1280x720.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .menu{
@@ -29,15 +35,11 @@
 /* - --- -- - -content ---- -  -- - */
 
 .content{
-    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/logo/Porsche-356-Speedster-1280x720.jpg") fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 172.1.1vh;
-    height: 120vh;
     text-align: center;
+    margin: 5rem 0 0 0;
 }
 .content img{
-    width: 300px;
+    width: 400px;
 }
 .content h1{
     font-size: 50px;
@@ -52,32 +54,232 @@
 .icons{
     font-size: 20px;
     color: #ffffff;
-    margin: 20rem 0 0 0;
+    margin: 37rem 0 0 0;
     display: flex;
     justify-content: center;
+}
+.icons ul{
+   font-size: 50px;
 }
 
 /* content-title */
 
 
 .content-title{
-    background:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("../images/BG/images.jpg")fixed;
-    background-repeat: no-repeat;
+    background: url("../images/BG/Без названия1.png")fixed;
+    background-repeat: no-repeat ;
     background-size: cover;
     width: 179.1.1vh;
     height: 70vh;
 }
 .content-title h2{
     text-align: center;
-    margin: 3rem;
+    margin: 3rem 0 0 0  ;
     font-size: 30px;
     color: #fff;
     font-family: 'Fredoka', sans-serif;
 }
 .content-title1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3rem  0 0 0;
+    
+}
+.content-title1 h4{
+    color: #fff;
+    font-size:  30px;
+}
+.content-title1 P{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin: 3rem 0 0 0;
 }
 .content-title img{
-    width: 100px;
+    margin: 0 0 3rem 0;
+    width: 150px;
+}
+/* ----- block------ */
+
+.blockh4{
+    text-align: center;
+    margin: 5rem 0 0 0;
+    color: black;
+    font-size: 45px;
+    line-height: normal;
+}
+.blockh4 h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.blockh4 p{
+    font-size: 25px;
+    line-height: 4rem;
+}
+.block1{
+    background-color: #fff;
+}
+.section{
+    margin: 3rem 0 3rem 0;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/BG/89-895539_nature-green-aesthetic-background.jpg")fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.block{
+    display: flex;
+    justify-content: center;
+}
+.block img{
+    width: 500px;
+    margin: 2rem;
+}
+.blockimg{
+    display: flex;
+    justify-content: center;
+}
+.blockimg img{
+    width: 500px;
+    margin: 2rem;
+}
+
+
+/* --------about Us------------ */
+
+
+.aboutus{
+    background: url("../images/BG/Без названия.png")fixed;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    width: 179.1.1vh;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+.aboutusdiv{
+    background-color: #fff;
+    margin: 6rem  0 0 0;
+    width: 68vh;
+    height: 53vh;
+    text-align: center;
+}
+.aboutusdiv h4{
+    font-size: 35px;
+    margin: 2rem 0 1rem 0;
+}
+.aboutusdiv p{
+    font-size: 25px;
+    margin: 2rem;
+}
+
+.abautusimg{
+    background: url("../images/abautusimg/Без названия.png")fixed;
+    background-repeat: no-repeat center ;
+    background-size: cover;
+    width: 179.1.1vh;
+    height: 55vh;
+}
+.abautusimg1{
+    background: url("../images/BG/Без названия.png")fixed;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    width: 179.1.1vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.abautusimg2{
+    background: url("../images/BG/Без названия.png")fixed;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    text-align: center;
+}
+.abautusimg2 img{
+    width: 300px;
+    margin: 5rem 0 0 0;
+}
+.abautblock{
+    display: flex;
+    justify-content: center;
+}
+.blocform{
+    background-color: #fff;
+    margin: 2rem  0 0 0;
+    width: 69vh;
+    height: 77vh;
+}
+.blocform h4{
+    font-size: 25px;
+    text-align: center;
+    margin: 2rem 0 0 0 ;
+}
+
+.blockform1{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ------------------form--------- */
+
+
+
+.form{
+    margin: 10px 0 0 0;
+}
+.form input{
+    padding: 10px 50px;
+}
+.form h5{
+    padding: 3rem 0 0 0;
+    color: rgb(129, 126, 126);
+}
+.form button{
+    margin: 10px 0 0 0;
+    padding: 8px 80px;
+    background-color: rgb(34, 34, 30);
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.formdiv{
+    text-align: center;
+}
+.form p{
+    margin: 10px 0 0 0 ;
+    color: rgb(129, 126, 126);
+}
+
+/* ulform--------- */
+
+
+.ulform ul{
+    margin: 3rem 0 0 1rem;
+    line-height: 4rem;
+    font-size: 15px;
+
+}
+/* -----footer------ */
+
+footer{
+    background-color: rgb(34, 27, 18);
+    height: 25vh;
+}
+.footerblock{
+    margin: 3rem 0 0 0;
+}
+.footerblock ul{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    color: #fff;
+    font-size: 20px;
+}
+footer p{
+    text-align: center;
+    margin: 3rem 0 0 0;
+    font-size: 20px;
+    color: #fff;
 }
