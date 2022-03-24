@@ -11,16 +11,19 @@ body{
 }
 
 .menu{
-    height: 5rem;
+    height: 3rem;
     background-color: rgb(31, 27, 22);
     padding-top: 2rem;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .menu ul{
     display: flex;
     justify-content: center;
     gap: 5rem;
     list-style: none;
-    margin: 1rem;
 }
 .menu a{
     text-decoration: none;
@@ -36,7 +39,7 @@ body{
 
 .content{
     text-align: center;
-    margin: 5rem 0 0 0;
+    margin: 4rem 0 0 0;
 }
 .content img{
     width: 400px;
@@ -47,7 +50,6 @@ body{
 }
 .content p{
     font-size: 25px;
-    line-height: 25px;
     color: #fff;
     font-family: 'Hubballi', cursive;
 }
@@ -58,11 +60,100 @@ body{
     display: flex;
     justify-content: center;
 }
-.icons ul{
-   font-size: 50px;
+/* ----subtitle ---------- */
+
+
+
+.subtitle1{
+    background: url("../images/BG/Без\ названия1.png")fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: #fff;
+    text-align: center;
 }
 
-/* content-title */
+.subtitlediv:hover{
+    margin: 6rem 0 0 0;
+    transition-duration: inherit ;
+    transition: 0.9s;
+}
+.subtitlediv img{
+    width: 130px;
+}
+.subtitle1 h2{
+    color:#fff;
+    font-size: 30px;
+    margin: 3rem 0 5rem  0 ;
+}
+
+.subtitle2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 0 5rem;
+
+}
+
+.subtitle2 h3{
+    font-size: 25px;
+    color: #fff;
+}
+.subtitle2 p{
+    margin: 2rem 0 0 0 ;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+/* workimg------- */
+
+.works{
+    background-color: #fff;
+    text-align: center;
+}
+.works h2{
+    margin: 3rem 0 0 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.worksimg{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 0 0;
+
+}
+.worksimg img:hover{
+    transform: translateY(25px);
+
+}
+.worksimg img{
+    width: 400px;
+    transition: 0.5s;
+    margin: 0 0 2rem 0;
+}
+.img1{
+    height: 265px;
+}
+
+
+
+.abaut{
+    background: url("../images/BG/Без\ названия.png") fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.abaut div{
+    width: 600px;
+    height: 400px;
+    margin: 5rem 0 5rem 0;
+    background-color: #fff;
+}
+
 
 
 .content-title{
@@ -86,112 +177,24 @@ body{
     margin: 3rem  0 0 0;
     
 }
-.content-title1 h4{
-    color: #fff;
-    font-size:  30px;
-}
-.content-title1 P{
-    color: #fff;
-    font-size: 25px;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    margin: 3rem 0 0 0;
-}
-.content-title img{
-    margin: 0 0 3rem 0;
-    width: 150px;
-}
-/* ----- block------ */
 
-.blockh4{
-    text-align: center;
-    margin: 5rem 0 0 0;
-    color: black;
-    font-size: 45px;
-    line-height: normal;
-}
-.blockh4 h4{
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-}
-.blockh4 p{
-    font-size: 25px;
-    line-height: 4rem;
-}
-.block1{
-    background-color: #fff;
-}
-.section{
-    margin: 3rem 0 3rem 0;
-    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/BG/89-895539_nature-green-aesthetic-background.jpg")fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-.block{
-    display: flex;
-    justify-content: center;
-}
-.block img{
-    width: 500px;
-    margin: 2rem;
-}
-.blockimg{
-    display: flex;
-    justify-content: center;
-}
-.blockimg img{
-    width: 500px;
-    margin: 2rem;
-}
-
-
-/* --------about Us------------ */
-
-
-.aboutus{
-    background: url("../images/BG/Без названия.png")fixed;
-    background-repeat: no-repeat ;
-    background-size: cover;
-    width: 179.1.1vh;
-    height: 75vh;
-    display: flex;
-    justify-content: center;
-}
-.aboutusdiv{
-    background-color: #fff;
-    margin: 6rem  0 0 0;
-    width: 68vh;
-    height: 53vh;
-    text-align: center;
-}
-.aboutusdiv h4{
-    font-size: 35px;
-    margin: 2rem 0 1rem 0;
-}
-.aboutusdiv p{
-    font-size: 25px;
-    margin: 2rem;
-}
 
 .abautusimg{
     background: url("../images/abautusimg/Без названия.png")fixed;
     background-repeat: no-repeat center ;
     background-size: cover;
+    position: center;
     width: 179.1.1vh;
-    height: 55vh;
+    height: 70vh;
 }
 .abautusimg1{
-    background: url("../images/BG/Без названия.png")fixed;
-    background-repeat: no-repeat ;
-    background-size: cover;
     width: 179.1.1vh;
-    height: 100vh;
+    height: 119vh;
     display: flex;
     justify-content: center;
 }
 .abautusimg2{
-    background: url("../images/BG/Без названия.png")fixed;
+    background: url("../images/BG/Без\ названия.png")fixed;
     background-repeat: no-repeat ;
     background-size: cover;
     text-align: center;
@@ -206,9 +209,9 @@ body{
 }
 .blocform{
     background-color: #fff;
-    margin: 2rem  0 0 0;
-    width: 69vh;
-    height: 77vh;
+    margin: 2rem  0 10vh 0;
+    width: 90vh;
+    height: 100vh;
 }
 .blocform h4{
     font-size: 25px;
